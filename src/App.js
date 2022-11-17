@@ -5,7 +5,7 @@ import { useState } from "react";
 function App() {
   const [colorValue, setColorValue] = useState("");
   const [hexValue, setHexValue] = useState("");
-  const [isDarkText, setIsDarkText] = useState("");
+  const [isDarkText, setIsDarkText] = useState(true);
 
   return (
     <div className="my-app">
